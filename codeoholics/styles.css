@@ -1,0 +1,54 @@
+/* ===== General Reset ===== */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #121212;
+  color: #e0e0e0;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Hero ===== */
+.hero {
+  background: linear-gradient(135deg, #1e1e1e, #292929);
+  padding: 100px 0;
+}
+
+.text-gradient {
+  background: linear-gradient(45deg, #6c63ff, #ff6584);
+  background-clip: text;              /* Standard */
+  -webkit-background-clip: text;      /* Chrome/Safari/Edge */
+  color: transparent;                 /* Standard */
+  -webkit-text-fill-color: transparent; /* Chrome/Safari */
+}
+
+/* ===== Cards ===== */
+.card {
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+}
+
+/* ===== Footer ===== */
+.site-footer {
+  background: #000;
+}
+
+.site-footer a {
+  color: #bbb;
+}
+
+.site-footer a:hover {
+  color: #fff;
+}
